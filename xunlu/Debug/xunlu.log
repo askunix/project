@@ -1,0 +1,29 @@
+﻿生成启动时间为 2018/10/25 16:55:40。
+     1>项目“B:\Visual Stdio 2013\Test Project\xunlu\xunlu\xunlu.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         B:\Visual Stdio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt StackSequence.c main.c maze.c scanf.c
+         scanf.c
+     1>b:\visual stdio 2013\test project\xunlu\xunlu\scanf.c(44): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 b:\visual stdio 2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>b:\visual stdio 2013\test project\xunlu\xunlu\scanf.c(61): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 b:\visual stdio 2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>b:\visual stdio 2013\test project\xunlu\xunlu\scanf.c(78): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 b:\visual stdio 2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+         maze.c
+         main.c
+     1>b:\visual stdio 2013\test project\xunlu\xunlu\main.c(26): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 b:\visual stdio 2013\vc\include\stdio.h(283) : 参见“scanf”的声明
+         StackSequence.c
+         正在生成代码...
+     1>b:\visual stdio 2013\test project\xunlu\xunlu\stacksequence.c(91): warning C4715: “Push_Sq”: 不是所有的控件路径都返回值
+       Link:
+         B:\Visual Stdio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"B:\Visual Stdio 2013\Test Project\xunlu\Debug\xunlu.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"B:\Visual Stdio 2013\Test Project\xunlu\Debug\xunlu.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"B:\Visual Stdio 2013\Test Project\xunlu\Debug\xunlu.lib" /MACHINE:X86 Debug\main.obj
+         Debug\maze.obj
+         Debug\scanf.obj
+         Debug\StackSequence.obj
+         xunlu.vcxproj -> B:\Visual Stdio 2013\Test Project\xunlu\Debug\xunlu.exe
+     1>已完成生成项目“B:\Visual Stdio 2013\Test Project\xunlu\xunlu\xunlu.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.82
